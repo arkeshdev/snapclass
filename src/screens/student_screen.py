@@ -30,7 +30,7 @@ def student_dashboard():
 
     st.space()
 
-    c1, c2 =st.columns(2)
+    c1, c2 =st.columns(2, vertical_alignment='center')
     with c1:
         st.header('Your Enrolled Subjects')
     with c2:
