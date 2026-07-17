@@ -1,27 +1,29 @@
 # 🎓 SnapClass
 
-AI-powered Attendance Management System built with **Python, Streamlit, and Supabase**.
+AI-powered Attendance Management System built using **Python, Streamlit, and Supabase**.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
 - 👨‍🏫 Teacher Login
 - 👨‍🎓 Student Login
 - 📚 Subject Management
 - ✅ Attendance Tracking
 - 📊 Dashboard
-- ☁️ Supabase Database Integration
+- ☁️ Supabase Integration
 
 ---
 
 ## 🛠 Tech Stack
 
-- Python
-- Streamlit
-- Supabase
-- PostgreSQL
-- Git & GitHub
+| Technology | Usage |
+|------------|-------|
+| Python | Backend |
+| Streamlit | Web UI |
+| Supabase | Database |
+| PostgreSQL | Data Storage |
+| Git & GitHub | Version Control |
 
 ---
 
@@ -33,13 +35,14 @@ snapclass/
 ├── src/
 ├── app.py
 ├── requirements.txt
-├── .gitignore
-└── README.md
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-## ⚙ Installation
+## 🚀 Installation
 
 ```bash
 git clone https://github.com/arkeshdev/snapclass.git
@@ -53,11 +56,15 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Improvements
+## 🔮 Upcoming Features
 
 - Face Recognition Attendance
 - Voice Authentication
 - Attendance Analytics
-- Email Notifications
+- AI-powered Reports
 
 ---
+
+## 👨‍💻 Author
+
+**Arkesh U**
