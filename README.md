@@ -1,70 +1,108 @@
 # 🎓 SnapClass
 
-AI-powered Attendance Management System built using **Python, Streamlit, and Supabase**.
-
----
+An AI-powered smart attendance management system built with **Python**, **Streamlit**, and **Supabase**. SnapClass uses **Face Recognition**, **Voice Recognition**, and **QR Code technology** to simplify and automate attendance management for educational institutions.
 
 ## ✨ Features
 
-- 👨‍🏫 Teacher Login
-- 👨‍🎓 Student Login
-- 📚 Subject Management
-- ✅ Attendance Tracking
-- 📊 Dashboard
-- ☁️ Supabase Integration
+### 👨‍🎓 Student
+- Student Registration
+- Secure Password Login
+- Face Recognition Login
+- Voice Registration
+- QR Code Attendance
+- View Attendance History
+- Student Dashboard
 
----
+### 👨‍🏫 Teacher
+- Teacher Login
+- Teacher Dashboard
+- Manage Subjects
+- Voice-based Attendance
+- Generate QR Code Attendance
+- View Attendance Records
+- Download Attendance Reports in Excel (.xlsx)
 
-## 🛠 Tech Stack
+### 🤖 AI Features
+- Face Recognition Authentication
+- Voice Recognition
+- QR Code Attendance
 
-| Technology | Usage |
-|------------|-------|
-| Python | Backend |
-| Streamlit | Web UI |
-| Supabase | Database |
-| PostgreSQL | Data Storage |
-| Git & GitHub | Version Control |
+## 🛠️ Tech Stack
 
----
+- **Frontend:** Streamlit
+- **Backend:** Python
+- **Database:** Supabase (PostgreSQL)
+- **Computer Vision:** OpenCV, face_recognition, dlib
+- **Voice Recognition:** Librosa, Resemblyzer
+- **QR Code:** Segno
+- **Security:** bcrypt
+- **Libraries:** NumPy, Pandas, Pillow
 
 ## 📂 Project Structure
 
 ```text
-snapclass/
-│
-├── src/
-├── app.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-└── .gitignore
+SnapClass/
+│── src/
+│   ├── components/
+│   ├── database/
+│   ├── screens/
+│   ├── services/
+│   ├── ui/
+│   └── utils/
+│── app.py
+│── requirements.txt
+│── README.md
+│── LICENSE
 ```
 
----
+## 🚀 Getting Started
 
-## 🚀 Installation
+Clone the repository:
 
 ```bash
 git clone https://github.com/arkeshdev/snapclass.git
-
 cd snapclass
+```
 
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate it:
+
+**Windows**
+
+```bash
+venv\Scripts\activate
+```
+
+**Linux/macOS**
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
 
+Configure your Supabase credentials and run:
+
+```bash
 streamlit run app.py
 ```
 
----
+## 🔮 Future Enhancements
 
-## 🔮 Upcoming Features
+- Attendance Analytics Dashboard
+- AI-powered Attendance Insights
+- Email Notifications
+- Multi-Institution Support
 
-- Face Recognition Attendance
-- Voice Authentication
-- Attendance Analytics
-- AI-powered Reports
+## 📄 License
 
----
-
-## 👨‍💻 Author
-
-**Arkesh U**
+This project is licensed under the MIT License.
