@@ -1,4 +1,4 @@
-supabase # Database
+streamlit==1.58.0 # Database
 
 # Utilities
 numpy
